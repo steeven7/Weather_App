@@ -48,7 +48,7 @@ function getCity(location) {
 		city.innerHTML = `${forecast.city},` + `${forecast.country}`;
 		weather.innerHTML = `${forecast.description}`;
 		temp.innerHTML = `Current Temp:${forecast.temperature}&degC`;
-		icon.innerHTML = `<img src="icons/${forecast.image}.png">`;
+		icon.innerHTML = `<img src="assets/${forecast.image}.png">`;
 
 		search.value = '';
 	}
